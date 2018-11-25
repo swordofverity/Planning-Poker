@@ -1,0 +1,26 @@
+@startuml
+
+class WearCardArrayAdapter
+{
+- inflater
++ setViewType(Int)
++ getItemViewType(Int)
++ onCreateViewHolder
++ onBindViewHolder(Int)
+}
+
+abstract class WearCardViewHolder
+{
+- center
++ bind
+}
+
+class LightCardViewHolder
+class DarkCardViewHolder
+
+WearCardArrayAdapter <.. WearCardViewHolder : вкл
+WearCardArrayAdapter <.. LightCardViewHolder : вкл
+WearCardArrayAdapter <.. DarkCardViewHolder : вкл
+
+
+@enduml

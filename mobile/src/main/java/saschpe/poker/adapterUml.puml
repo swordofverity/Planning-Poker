@@ -1,0 +1,37 @@
+@startuml
+
+class RecyclerViewDisabler
+{
++ onInterceptTouchEvent: Boolean
++ onTouchEvent
++ onRequestDisallowInterceptTouchEvent
+}
+
+class CardArrayAdapter
+{
+- inflater:
+-  prefs
+-  helpDismissed: Boolean
+- onSmallCardClickListener: Int
++ getItemViewType ()
++ onCreateViewHold ()
++ onBindViewHolder ()
+override fun getItemCount(): Int
+fun setViewType(viewType: Int)
+fun setOnSmallCardClickListener(onSmallCardClickListener: (Int)
+fun getSpanSizeLookup
+private fun isHelpOnPosition
+
+}
+class HelpCardViewHolder
+class SmallCardViewHolder
+class BigCardViewHolder
+class BigBlackCardViewHolder
+
+CardArrayAdapter <.. HelpCardViewHolder : вкл
+CardArrayAdapter <.. SmallCardViewHolder : вкл
+CardArrayAdapter <.. BigCardViewHolder : вкл
+CardArrayAdapter <.. BigBlackCardViewHolder : вкл
+CardArrayAdapter <. RecyclerViewDisabler : вкл
+
+@enduml

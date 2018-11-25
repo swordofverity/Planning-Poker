@@ -1,0 +1,11 @@
+@startuml
+
+class ShakeDetector
+{
+- shakeTimestamp: Long = 0
+- shakeCount: Int = 0
++ onSensorChanged(event: SensorEvent)
++ onAccuracyChanged
++ companion object
+}
+@enduml

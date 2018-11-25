@@ -1,0 +1,48 @@
+@startuml
+
+class MainActivity
+{
+- adapter: CardArrayAdapter?
+- gridLayoutManager: GridLayoutManager
+- linearLayoutManager: LinearLayoutManager
+- nlinearSnapHelper: LinearSnapHelper
+- lateinit var gridSpacesDecoration: SpacesItemDecoration
+- isLocked: Boolean
+- sensorManager: SensorManager
+- accelerometer: Sensor
+- shakeDetector: ShakeDetector
+- recyclerViewDisabler = RecyclerViewDisabler()
++ onCreate()
++ onResume()
++ onPause()
++ onDestroy()
++ onSaveInstanceState(outState: Bundle)
++ onCreateOptionsMenu(menu: Menu): Boolean
++ onPrepareOptionsMenu(menu: Menu): Boolean
++ onOptionsItemSelected(item: MenuItem): Boolean
+- displayBigCards()
+- displaySmallCards()
+- updateFlavor(@PlanningPoker.Flavor flavor: Int)
+- lock()
+- unlock()
+}
+
+class HelpActivity
+{
++ onCreate(savedInstanceState: Bundle?)
++ onCreateOptionsMenu(menu: Menu): Boolean
++ onOptionsItemSelected(item: MenuItem): Boolean
+}
+class MyFragmentPagerAdapter
+{
+- pageTitles: Array<String> )
+- applicationName: String
++ getItem(position: Int): Fragment
++ getPageTitle(position: Int): CharSequence
++ getCount(): Int
+}
+ HelpActivity <.. MainActivity : вкл
+MyFragmentPagerAdapter <. HelpActivity : вкл
+
+
+@enduml

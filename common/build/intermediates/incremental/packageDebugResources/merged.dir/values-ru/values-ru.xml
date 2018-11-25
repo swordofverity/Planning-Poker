@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_help">Как пользоваться приложением</string>
+    <string name="app_help_text">Прокручивайте влево или вправо, чтобы поменять выбранную карту. Изменяйте стиль выбранной колоды, используя меню в верхнем правом углу экрана.</string>
+    <string name="app_name">Planning Poker</string>
+    <string name="dismiss">Убрать</string>
+    <string name="feedback_mail_subject_template">Отправить фидбэк</string>
+    <string name="fibonacci">Фибоначчи</string>
+    <string name="help_and_feedback">Инфо о приложении</string>
+    <string name="ideal_days">Идеальные дни</string>
+    <string name="info">Информация</string>
+    <string name="item">Item</string>
+    <string name="launcher">Launcher</string>
+    <string name="open_source">Op</string>
+    <string name="points">Баллы</string>
+    <string name="poker_help">Как играть в покер планирования</string>
+    <string name="poker_help_text">Играя в покер планирования, члены команды оценивают истории, выбирая карты, максимально соответстующую сложности истории. Они выкладывают карты на стол рубашкой вверх, вместо того, чтобы озвучивать голосом. После того, как карты раскрываются, оценки истории обсуждаются командой.</string>
+    <string name="privacy_policy">Pr</string>
+    <string name="shake_to_reveal">Потряси чтобы открыть!</string>
+    <string name="share_via">Поделиться с помощью</string>
+    <string name="social">Социальное</string>
+    <string name="t_shirt_sizes">Размер футболок</string>
+    <string name="version_info">Информация о версии</string>
+</resources>

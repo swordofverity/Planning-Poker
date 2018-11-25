@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: saschpe.android:versioninfo-2.0.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/versioninfo-2.0.0.aar/1fd849fbcfdab7b113c0164c6b1763ed/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/versioninfo-2.0.0.aar/1fd849fbcfdab7b113c0164c6b1763ed/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/saschpe.android/versioninfo/2.0.0/cb23874e351cdbd5518da376fb9e8942d667bce6/versioninfo-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
